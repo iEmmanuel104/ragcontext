@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wc:*)",
+      "WebSearch",
+      "Bash(find:*)",
+      "Bash(git init:*)",
+      "Bash(git branch:*)",
+      "Bash(node:*)",
+      "Bash(pnpm install && pnpm --filter @contextinject/types build 2>&1)",
+      "Bash(pnpm build:*)",
+      "Bash(grep:*)",
+      "Bash(tail:*)",
+      "Bash(npx eslint:*)",
+      "Bash(pnpm:*)",
+      "Bash(cat:*)"
+    ]
+  }
+}
