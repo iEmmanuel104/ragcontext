@@ -1,0 +1,21 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src"
+  },
+  "include": ["src"],
+  "references": [
+    { "path": "../../packages/types" },
+    { "path": "../../packages/core" },
+    { "path": "../../packages/queue" },
+    { "path": "../../packages/db" },
+    { "path": "../../packages/logger" },
+    { "path": "../../packages/config" },
+    { "path": "../../packages/errors" },
+    { "path": "../../packages/embeddings" },
+    { "path": "../../packages/vector-store" },
+    { "path": "../../packages/chunker" },
+    { "path": "../../packages/parser" }
+  ]
+}

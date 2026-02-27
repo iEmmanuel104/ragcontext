@@ -1,0 +1,12 @@
+node_modules/
+dist/
+build/
+.git/
+.env
+.env.local
+coverage/
+.turbo/
+.next/
+*.log
+docs/
+.worktrees/

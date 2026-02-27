@@ -1,0 +1,18 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src"
+  },
+  "include": ["src"],
+  "references": [
+    { "path": "../types" },
+    { "path": "../db" },
+    { "path": "../vector-store" },
+    { "path": "../embeddings" },
+    { "path": "../chunker" },
+    { "path": "../parser" },
+    { "path": "../errors" },
+    { "path": "../logger" }
+  ]
+}
