@@ -21,7 +21,7 @@
     "test:coverage": "vitest run --coverage"
   },
   "dependencies": {
-    "pino": "^9.0.0",
+    "pino": "^10.3.1",
     "pino-pretty": "^13.0.0"
   },
   "devDependencies": {
