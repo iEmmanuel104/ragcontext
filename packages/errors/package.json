@@ -21,7 +21,7 @@
     "test:coverage": "vitest run --coverage"
   },
   "dependencies": {
-    "opossum": "^8.0.0"
+    "opossum": "^9.0.0"
   },
   "devDependencies": {
     "@types/node": "^22",

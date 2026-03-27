@@ -21,7 +21,7 @@
     "test:coverage": "vitest run --coverage"
   },
   "dependencies": {
-    "cohere-ai": "^7.0.0",
+    "cohere-ai": "^7.21.0",
     "@contextinject/types": "workspace:*",
     "@contextinject/errors": "workspace:*",
     "@contextinject/config": "workspace:*",
